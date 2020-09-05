@@ -1,10 +1,10 @@
 # Schritt 1: Anlegen eines PSCredential-Objekts mit Benutzername und Kennwort als SecureString
 
-$Cred = [PSCredential]::New("ftp12146773-pskurs", ("posh2020" | ConvertTo-SecureString –AsPlainText -Force))
+$Cred = [PSCredential]::New("ftp12146773-pskurs", ("posh2020" | ConvertTo-SecureString -AsPlainText -Force))
 
 # Schritt 2: Download der Zip-Datei über wget
 
-wget –uri ftp://wp12146773.server-he.de/posh/PoshFolien.zip –Credential $Cred -OutFile Folien.zip
+wget -uri ftp://wp12146773.server-he.de/posh/PoshFolien.zip -Credential $Cred -OutFile Folien.zip
 
 # Fragen
 # Was ist wget?
