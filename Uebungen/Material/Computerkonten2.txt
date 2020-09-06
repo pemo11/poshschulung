@@ -1,0 +1,8 @@
+localhost,Ja
+127.0.0.1,Ja
+localhost,Nein
+localhost,Nein
+server1,Nein
+server2,Nein
+server3,Nein
+
