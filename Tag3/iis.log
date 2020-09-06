@@ -1,0 +1,1541 @@
+[12/19/2019 14:05:24] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:24] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.applicationHost/applicationPools
+[12/19/2019 14:05:24] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.applicationHost/applicationPools" command in installation path.
+[12/19/2019 14:05:24] Success!
+[12/19/2019 14:05:24] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:24] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:24] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.applicationHost/listenerAdapters
+[12/19/2019 14:05:24] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.applicationHost/listenerAdapters" command in installation path.
+[12/19/2019 14:05:24] Success!
+[12/19/2019 14:05:24] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:24] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:24] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.applicationHost/log
+[12/19/2019 14:05:24] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.applicationHost/log" command in installation path.
+[12/19/2019 14:05:24] Success!
+[12/19/2019 14:05:24] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:24] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:24] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.applicationHost/sites
+[12/19/2019 14:05:24] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.applicationHost/sites" command in installation path.
+[12/19/2019 14:05:24] Success!
+[12/19/2019 14:05:24] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:24] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:24] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.applicationHost/webLimits
+[12/19/2019 14:05:24] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.applicationHost/webLimits" command in installation path.
+[12/19/2019 14:05:24] Success!
+[12/19/2019 14:05:24] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:24] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:24] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install SharedLibraries
+[12/19/2019 14:05:24] Successfully added IIS_IUSRS ACE to DACL at %ProgramData%\Microsoft\Windows\WER\ReportQueue.
+[12/19/2019 14:05:24] Created registry value HKLM\System\CurrentControlSet\Services\WAS\Parameters\GenerateKeys
+[12/19/2019 14:05:24] Install of component SharedLibraries succeeded!
+[12/19/2019 14:05:24] Success!
+[12/19/2019 14:05:24] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:24] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:24] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install ProcessModelLibraries
+[12/19/2019 14:05:24] Successfully updated IIS_IUSRS rights.
+[12/19/2019 14:05:24] Successfully created and populated IIS_IUSRS.
+[12/19/2019 14:05:24] Install of component ProcessModelLibraries succeeded!
+[12/19/2019 14:05:24] Success!
+[12/19/2019 14:05:24] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:24] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:24] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install ProcessModel
+[12/19/2019 14:05:24] Successfully started APPHOSTSVC.
+[12/19/2019 14:05:24] Install of component ProcessModel succeeded!
+[12/19/2019 14:05:24] Success!
+[12/19/2019 14:05:24] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:24] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:24] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install CoreWebEngine
+[12/19/2019 14:05:24] Install of component CoreWebEngine succeeded!
+[12/19/2019 14:05:24] Success!
+[12/19/2019 14:05:24] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:24] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:24] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install W3SVC
+[12/19/2019 14:05:24] < WARNING! > SERVICE_CONTROLLER::StartNamedService W3SVC result=0x80070422
+[12/19/2019 14:05:24] Install of component W3SVC succeeded!
+[12/19/2019 14:05:24] Success!
+[12/19/2019 14:05:24] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:24] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:24] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/security/access
+[12/19/2019 14:05:25] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/security/access" command in installation path.
+[12/19/2019 14:05:25] Success!
+[12/19/2019 14:05:25] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:25] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:25] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/handlers
+[12/19/2019 14:05:25] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/handlers" command in installation path.
+[12/19/2019 14:05:25] Success!
+[12/19/2019 14:05:25] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:25] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:25] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/httpCompression
+[12/19/2019 14:05:25] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/httpCompression" command in installation path.
+[12/19/2019 14:05:25] Success!
+[12/19/2019 14:05:25] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:25] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:25] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HTTPLogging
+[12/19/2019 14:05:25] Install of component HttpLogging succeeded!
+[12/19/2019 14:05:25] Success!
+[12/19/2019 14:05:25] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:25] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:25] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpLoggingBinaries
+[12/19/2019 14:05:25] Install of component HttpLoggingBinaries succeeded!
+[12/19/2019 14:05:25] Success!
+[12/19/2019 14:05:25] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:25] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:25] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/httpLogging
+[12/19/2019 14:05:25] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/httpLogging" command in installation path.
+[12/19/2019 14:05:25] Success!
+[12/19/2019 14:05:25] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:25] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:25] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.applicationHost/log
+[12/19/2019 14:05:25] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.applicationHost/log" command in installation path.
+[12/19/2019 14:05:25] Success!
+[12/19/2019 14:05:25] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:25] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:25] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:HttpLoggingModule -image:C:\WINDOWS\System32\inetsrv\loghttp.dll -lock:true
+[12/19/2019 14:05:25] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:HttpLoggingModule -image:%windir%\System32\inetsrv\loghttp.dll -lock:true" command in installation path.
+[12/19/2019 14:05:25] Success!
+[12/19/2019 14:05:25] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:25] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:25] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install CachingBase
+[12/19/2019 14:05:25] Install of component CachingBase succeeded!
+[12/19/2019 14:05:25] Success!
+[12/19/2019 14:05:25] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:25] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:25] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install CachingBaseBinaries
+[12/19/2019 14:05:25] Install of component CachingBaseBinaries succeeded!
+[12/19/2019 14:05:25] Success!
+[12/19/2019 14:05:25] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:25] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:25] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:UriCacheModule -image:C:\WINDOWS\System32\inetsrv\cachuri.dll -add:false -lock:true
+[12/19/2019 14:05:25] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:UriCacheModule -image:%windir%\System32\inetsrv\cachuri.dll -add:false -lock:true" command in installation path.
+[12/19/2019 14:05:25] Success!
+[12/19/2019 14:05:25] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:25] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:25] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:FileCacheModule -image:C:\WINDOWS\System32\inetsrv\cachfile.dll -add:false -lock:true
+[12/19/2019 14:05:25] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:FileCacheModule -image:%windir%\System32\inetsrv\cachfile.dll -add:false -lock:true" command in installation path.
+[12/19/2019 14:05:25] Success!
+[12/19/2019 14:05:25] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:25] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:25] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:TokenCacheModule -image:C:\WINDOWS\System32\inetsrv\cachtokn.dll -add:false -lock:true
+[12/19/2019 14:05:25] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:TokenCacheModule -image:%windir%\System32\inetsrv\cachtokn.dll -add:false -lock:true" command in installation path.
+[12/19/2019 14:05:25] Success!
+[12/19/2019 14:05:25] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:25] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:25] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install Caching
+[12/19/2019 14:05:25] Install of component Caching succeeded!
+[12/19/2019 14:05:25] Success!
+[12/19/2019 14:05:25] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:25] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:25] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpCache
+[12/19/2019 14:05:25] Install of component HttpCache succeeded!
+[12/19/2019 14:05:25] Success!
+[12/19/2019 14:05:25] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:25] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:25] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpCacheBinaries
+[12/19/2019 14:05:25] Install of component HttpCacheBinaries succeeded!
+[12/19/2019 14:05:25] Success!
+[12/19/2019 14:05:25] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:25] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:25] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/caching
+[12/19/2019 14:05:25] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/caching" command in installation path.
+[12/19/2019 14:05:25] Success!
+[12/19/2019 14:05:25] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:25] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:25] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:HttpCacheModule -image:C:\WINDOWS\System32\inetsrv\cachhttp.dll -lock:true
+[12/19/2019 14:05:25] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:HttpCacheModule -image:%windir%\System32\inetsrv\cachhttp.dll -lock:true" command in installation path.
+[12/19/2019 14:05:25] Success!
+[12/19/2019 14:05:25] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:25] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:25] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install CompressionBinaries
+[12/19/2019 14:05:26] Install of component CompressionBinaries succeeded!
+[12/19/2019 14:05:26] Success!
+[12/19/2019 14:05:26] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:26] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:26] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/httpCompression
+[12/19/2019 14:05:26] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/httpCompression" command in installation path.
+[12/19/2019 14:05:26] Success!
+[12/19/2019 14:05:26] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:26] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:26] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:DynamicCompressionModule -image:C:\WINDOWS\System32\inetsrv\compdyn.dll -lock:true
+[12/19/2019 14:05:26] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:DynamicCompressionModule -image:%windir%\System32\inetsrv\compdyn.dll -lock:true" command in installation path.
+[12/19/2019 14:05:26] Success!
+[12/19/2019 14:05:26] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:26] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:26] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpCompressionDynamic
+[12/19/2019 14:05:26] Install of component HttpCompressionDynamic succeeded!
+[12/19/2019 14:05:26] Success!
+[12/19/2019 14:05:26] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:26] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:26] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpCompressionDynamicBinaries
+[12/19/2019 14:05:26] Install of component HttpCompressionDynamicBinaries succeeded!
+[12/19/2019 14:05:26] Success!
+[12/19/2019 14:05:26] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:26] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:26] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:StaticCompressionModule -image:C:\WINDOWS\System32\inetsrv\compstat.dll -lock:true
+[12/19/2019 14:05:26] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:StaticCompressionModule -image:%windir%\System32\inetsrv\compstat.dll -lock:true" command in installation path.
+[12/19/2019 14:05:26] Success!
+[12/19/2019 14:05:26] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:26] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:26] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpCompressionStatic
+[12/19/2019 14:05:26] Setup did not create the C:\inetpub\temp\IIS Temporary Compressed Files directory because it all ready existed
+[12/19/2019 14:05:26] Install of component HttpCompressionStatic succeeded!
+[12/19/2019 14:05:26] Success!
+[12/19/2019 14:05:26] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:26] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:26] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpCompressionStaticBinaries
+[12/19/2019 14:05:26] Install of component HttpCompressionStaticBinaries succeeded!
+[12/19/2019 14:05:26] Success!
+[12/19/2019 14:05:26] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:26] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:26] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/defaultDocument
+[12/19/2019 14:05:26] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/defaultDocument" command in installation path.
+[12/19/2019 14:05:26] Success!
+[12/19/2019 14:05:26] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:26] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:26] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:DefaultDocumentModule -image:C:\WINDOWS\System32\inetsrv\defdoc.dll -lock:true
+[12/19/2019 14:05:26] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:DefaultDocumentModule -image:%windir%\System32\inetsrv\defdoc.dll -lock:true" command in installation path.
+[12/19/2019 14:05:26] Success!
+[12/19/2019 14:05:26] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:26] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:26] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install DefaultDocument
+[12/19/2019 14:05:26] Install of component DefaultDocument succeeded!
+[12/19/2019 14:05:26] Success!
+[12/19/2019 14:05:26] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:26] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:26] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install DefaultDocumentBinaries
+[12/19/2019 14:05:26] Install of component DefaultDocumentBinaries succeeded!
+[12/19/2019 14:05:26] Success!
+[12/19/2019 14:05:26] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:26] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:26] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/directoryBrowse
+[12/19/2019 14:05:26] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/directoryBrowse" command in installation path.
+[12/19/2019 14:05:26] Success!
+[12/19/2019 14:05:26] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:26] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:26] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:DirectoryListingModule -image:C:\WINDOWS\System32\inetsrv\dirlist.dll -lock:true
+[12/19/2019 14:05:26] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:DirectoryListingModule -image:%windir%\System32\inetsrv\dirlist.dll -lock:true" command in installation path.
+[12/19/2019 14:05:26] Success!
+[12/19/2019 14:05:26] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:26] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:26] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install DirectoryBrowse
+[12/19/2019 14:05:26] Install of component DirectoryBrowse succeeded!
+[12/19/2019 14:05:26] Success!
+[12/19/2019 14:05:26] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:26] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:26] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install DirectoryBrowseBinaries
+[12/19/2019 14:05:26] Install of component DirectoryBrowseBinaries succeeded!
+[12/19/2019 14:05:26] Success!
+[12/19/2019 14:05:26] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:27] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:27] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpProtocol
+[12/19/2019 14:05:27] Install of component HttpProtocol succeeded!
+[12/19/2019 14:05:27] Success!
+[12/19/2019 14:05:27] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:27] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:27] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpProtocolBinaries
+[12/19/2019 14:05:27] Install of component HttpProtocolBinaries succeeded!
+[12/19/2019 14:05:27] Success!
+[12/19/2019 14:05:27] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:27] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:27] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/httpProtocol
+[12/19/2019 14:05:27] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/httpProtocol" command in installation path.
+[12/19/2019 14:05:27] Success!
+[12/19/2019 14:05:27] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:27] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:27] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:ProtocolSupportModule -image:C:\WINDOWS\System32\inetsrv\protsup.dll -lock:true
+[12/19/2019 14:05:27] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:ProtocolSupportModule -image:%windir%\System32\inetsrv\protsup.dll -lock:true" command in installation path.
+[12/19/2019 14:05:27] Success!
+[12/19/2019 14:05:27] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:27] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:27] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/staticContent
+[12/19/2019 14:05:27] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/staticContent" command in installation path.
+[12/19/2019 14:05:27] Success!
+[12/19/2019 14:05:27] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:27] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:27] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:StaticFileModule -image:C:\WINDOWS\System32\inetsrv\static.dll -lock:true
+[12/19/2019 14:05:27] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:StaticFileModule -image:%windir%\System32\inetsrv\static.dll -lock:true" command in installation path.
+[12/19/2019 14:05:27] Success!
+[12/19/2019 14:05:27] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:27] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:27] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install StaticContent
+[12/19/2019 14:05:27] Install of component StaticContent succeeded!
+[12/19/2019 14:05:27] Success!
+[12/19/2019 14:05:27] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:27] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:27] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install StaticContentBinaries
+[12/19/2019 14:05:27] Install of component StaticContentBinaries succeeded!
+[12/19/2019 14:05:27] Success!
+[12/19/2019 14:05:27] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:27] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:27] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install AnonymousAuthentication
+[12/19/2019 14:05:27] Install of component AnonymousAuthentication succeeded!
+[12/19/2019 14:05:27] Success!
+[12/19/2019 14:05:27] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:27] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:27] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install AnonymousAuthenticationBinaries
+[12/19/2019 14:05:27] Install of component AnonymousAuthenticationBinaries succeeded!
+[12/19/2019 14:05:27] Success!
+[12/19/2019 14:05:27] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:27] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:27] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/security/authentication/anonymousAuthentication
+[12/19/2019 14:05:27] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/security/authentication/anonymousAuthentication" command in installation path.
+[12/19/2019 14:05:27] Success!
+[12/19/2019 14:05:27] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:27] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:27] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:AnonymousAuthenticationModule -image:C:\WINDOWS\System32\inetsrv\authanon.dll -lock:true
+[12/19/2019 14:05:27] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:AnonymousAuthenticationModule -image:%windir%\System32\inetsrv\authanon.dll -lock:true" command in installation path.
+[12/19/2019 14:05:27] Success!
+[12/19/2019 14:05:27] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:27] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:27] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install WindowsAuthentication
+[12/19/2019 14:05:27] Install of component WindowsAuthentication succeeded!
+[12/19/2019 14:05:27] Success!
+[12/19/2019 14:05:27] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:27] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:27] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install WindowsAuthenticationBinaries
+[12/19/2019 14:05:27] Install of component WindowsAuthenticationBinaries succeeded!
+[12/19/2019 14:05:27] Success!
+[12/19/2019 14:05:27] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:27] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:27] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/security/authentication/windowsAuthentication
+[12/19/2019 14:05:27] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/security/authentication/windowsAuthentication" command in installation path.
+[12/19/2019 14:05:27] Success!
+[12/19/2019 14:05:27] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:27] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:27] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:WindowsAuthenticationModule -image:C:\WINDOWS\System32\inetsrv\authsspi.dll -lock:true
+[12/19/2019 14:05:27] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:WindowsAuthenticationModule -image:%windir%\System32\inetsrv\authsspi.dll -lock:true" command in installation path.
+[12/19/2019 14:05:27] Success!
+[12/19/2019 14:05:27] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:28] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:28] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install RequestFiltering
+[12/19/2019 14:05:28] Install of component RequestFiltering succeeded!
+[12/19/2019 14:05:28] Success!
+[12/19/2019 14:05:28] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:28] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:28] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install RequestFilteringBinaries
+[12/19/2019 14:05:28] Install of component RequestFilteringBinaries succeeded!
+[12/19/2019 14:05:28] Success!
+[12/19/2019 14:05:28] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:28] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:28] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/security/requestFiltering
+[12/19/2019 14:05:28] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/security/requestFiltering" command in installation path.
+[12/19/2019 14:05:28] Success!
+[12/19/2019 14:05:28] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:28] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:28] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:RequestFilteringModule -image:C:\WINDOWS\System32\inetsrv\modrqflt.dll -lock:true
+[12/19/2019 14:05:28] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:RequestFilteringModule -image:%windir%\System32\inetsrv\modrqflt.dll -lock:true" command in installation path.
+[12/19/2019 14:05:28] Success!
+[12/19/2019 14:05:28] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:29] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:29] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpErrors
+[12/19/2019 14:05:29] Install of component HttpErrors succeeded!
+[12/19/2019 14:05:29] Success!
+[12/19/2019 14:05:29] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:29] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:29] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpErrorsBinaries
+[12/19/2019 14:05:29] Install of component HttpErrorsBinaries succeeded!
+[12/19/2019 14:05:29] Success!
+[12/19/2019 14:05:29] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:29] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:29] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/httpErrors
+[12/19/2019 14:05:29] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/httpErrors" command in installation path.
+[12/19/2019 14:05:29] Success!
+[12/19/2019 14:05:29] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:29] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:29] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:CustomErrorModule -image:C:\WINDOWS\System32\inetsrv\custerr.dll -lock:true
+[12/19/2019 14:05:29] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:CustomErrorModule -image:%windir%\System32\inetsrv\custerr.dll -lock:true" command in installation path.
+[12/19/2019 14:05:29] Success!
+[12/19/2019 14:05:29] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:29] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:29] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:IsapiModule -image:C:\WINDOWS\System32\inetsrv\isapi.dll -lock:true
+[12/19/2019 14:05:29] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:IsapiModule -image:%windir%\System32\inetsrv\isapi.dll -lock:true" command in installation path.
+[12/19/2019 14:05:29] Success!
+[12/19/2019 14:05:29] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:29] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:29] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install ISAPIExtensions
+[12/19/2019 14:05:29] Install of component ISAPIExtensions succeeded!
+[12/19/2019 14:05:29] Success!
+[12/19/2019 14:05:29] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:29] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:29] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install ISAPIExtensionsBinaries
+[12/19/2019 14:05:29] Install of component ISAPIExtensionsBinaries succeeded!
+[12/19/2019 14:05:29] Success!
+[12/19/2019 14:05:29] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:29] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:29] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install ISAPIFilter
+[12/19/2019 14:05:29] Install of component ISAPIFilter succeeded!
+[12/19/2019 14:05:29] Success!
+[12/19/2019 14:05:29] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:29] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:29] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install ISAPIFilterBinaries
+[12/19/2019 14:05:29] Install of component ISAPIFilterBinaries succeeded!
+[12/19/2019 14:05:29] Success!
+[12/19/2019 14:05:29] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:30] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:30] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:IsapiFilterModule -image:C:\WINDOWS\System32\inetsrv\filter.dll -lock:true
+[12/19/2019 14:05:30] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:IsapiFilterModule -image:%windir%\System32\inetsrv\filter.dll -lock:true" command in installation path.
+[12/19/2019 14:05:30] Success!
+[12/19/2019 14:05:30] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:30] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:30] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/isapiFilters
+[12/19/2019 14:05:30] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/isapiFilters" command in installation path.
+[12/19/2019 14:05:30] Success!
+[12/19/2019 14:05:30] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:30] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:30] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/isapiFilters
+[12/19/2019 14:05:30] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/isapiFilters" command in installation path.
+[12/19/2019 14:05:30] Success!
+[12/19/2019 14:05:30] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:30] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:30] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install ManagementScriptingTools
+[12/19/2019 14:05:30] Install of component ManagementScriptingTools succeeded!
+[12/19/2019 14:05:30] Success!
+[12/19/2019 14:05:30] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:30] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:30] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install ManagementConsole
+[12/19/2019 14:05:30] Install of component ManagementConsole succeeded!
+[12/19/2019 14:05:30] Success!
+[12/19/2019 14:05:30] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:30] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:30] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install PowerShellProvider
+[12/19/2019 14:05:30] Install of component PowerShellProvider succeeded!
+[12/19/2019 14:05:30] Success!
+[12/19/2019 14:05:30] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:30] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:30] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install AdminService
+[12/19/2019 14:05:30] Install of component AdminService succeeded!
+[12/19/2019 14:05:30] Success!
+[12/19/2019 14:05:30] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:32] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:32] "C:\WINDOWS\SysWOW64\inetsrv\aspnetca.exe" /install /managedextensibility 4.0.30319.0
+[12/19/2019 14:05:32] Installation success
+[12/19/2019 14:05:32] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:32] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:32] "C:\WINDOWS\SysWOW64\inetsrv\aspnetca.exe" /install /fullaspnet 4.0.30319.0
+[12/19/2019 14:05:32] .NET v4.5 Classic App Pool already exists
+[12/19/2019 14:05:32] Installation success
+[12/19/2019 14:05:32] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:32] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:32] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/webSocket
+[12/19/2019 14:05:32] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/webSocket" command in installation path.
+[12/19/2019 14:05:32] Success!
+[12/19/2019 14:05:32] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:32] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:32] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:WebSocketModule -image:C:\WINDOWS\System32\inetsrv\iiswsock.dll -lock:true
+[12/19/2019 14:05:32] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:WebSocketModule -image:%windir%\System32\inetsrv\iiswsock.dll -lock:true" command in installation path.
+[12/19/2019 14:05:32] Success!
+[12/19/2019 14:05:32] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:32] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:32] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install WebSockets
+[12/19/2019 14:05:32] Install of component WebSockets succeeded!
+[12/19/2019 14:05:32] Success!
+[12/19/2019 14:05:32] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:32] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:32] "C:\WINDOWS\System32\inetsrv\aspnetca.exe" /install /managedextensibility 4.0.30319.0
+[12/19/2019 14:05:33] Installation success
+[12/19/2019 14:05:33] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:33] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:33] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install NetFxExtensibility45
+[12/19/2019 14:05:33] Install of component NetFxExtensibility45 succeeded!
+[12/19/2019 14:05:33] Success!
+[12/19/2019 14:05:33] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:34] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:34] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:ConfigurationValidationModule -image:C:\WINDOWS\System32\inetsrv\validcfg.dll -lock:true
+[12/19/2019 14:05:34] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:ConfigurationValidationModule -image:%windir%\System32\inetsrv\validcfg.dll -lock:true" command in installation path.
+[12/19/2019 14:05:34] Success!
+[12/19/2019 14:05:34] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:34] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:34] "C:\WINDOWS\System32\inetsrv\aspnetca.exe" /install /fullaspnet 4.0.30319.0
+[12/19/2019 14:05:34] .NET v4.5 Classic App Pool already exists
+[12/19/2019 14:05:34] Installation success
+[12/19/2019 14:05:34] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:34] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:34] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install ASPNET45
+[12/19/2019 14:05:34] Install of component ASPNET45 succeeded!
+[12/19/2019 14:05:34] Success!
+[12/19/2019 14:05:34] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:34] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:34] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install WASConfigurationAPI
+[12/19/2019 14:05:34] Install of component WASConfigurationAPI succeeded!
+[12/19/2019 14:05:34] Success!
+[12/19/2019 14:05:34] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:34] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:34] "C:\WINDOWS\System32\inetsrv\aspnetca.exe" /install_common
+[12/19/2019 14:05:34] Installation success
+[12/19/2019 14:05:34] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:34] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:34] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe unlock config -section:system.webServer/handlers
+[12/19/2019 14:05:34] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe unlock config -section:system.webServer/handlers" command in installation path.
+[12/19/2019 14:05:34] Success!
+[12/19/2019 14:05:34] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:34] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:34] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe unlock config -section:system.webServer/modules
+[12/19/2019 14:05:34] Installation: Migration in progress. Ignoring "C:\WINDOWS\System32\inetsrv\appcmd.exe C:\WINDOWS\System32\inetsrv\appcmd.exe unlock config -section:system.webServer/modules" command in installation path.
+[12/19/2019 14:05:34] Success!
+[12/19/2019 14:05:34] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:35] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:35] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /firewall W3SVC
+[12/19/2019 14:05:35] Install firewall rules of component W3SVC succeeded!
+[12/19/2019 14:05:35] Success!
+[12/19/2019 14:05:35] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:05:35] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:05:35] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /firewall AdminService
+[12/19/2019 14:05:35] Install firewall rules of component AdminService succeeded!
+[12/19/2019 14:05:35] Success!
+[12/19/2019 14:05:35] [ End of IIS 10.0 Component Based Setup ]
+[12/19/2019 14:19:31] [ ***** IIS 10.0 Component Based Setup ***** ]
+[12/19/2019 14:19:31] .\inetsrv\iissetup.exe  /keygen 
+[12/19/2019 14:19:31] NetFrameworkConfigurationKey key container already exists
+[12/19/2019 14:19:31] Set ACLs on NetFrameworkConfigurationKey
+[12/19/2019 14:19:31] Failed to create iisCngConfigurationKey key container (result=0x8009000f)
+[12/19/2019 14:19:31] Opened existing iisCngConfigurationKey key container
+[12/19/2019 14:19:31] iisCngConfigurationKey key container already exists
+[12/19/2019 14:19:31] Generated (or already exists) IIS CNG Configuration Key Container
+[12/19/2019 14:19:31] Failed to create iisCngWasKey key container (result=0x8009000f)
+[12/19/2019 14:19:31] Opened existing iisCngWasKey key container
+[12/19/2019 14:19:31] iisCngWasKey key container already exists
+[12/19/2019 14:19:31] Generated (or already exists) IIS CNG WAS only Key Container
+[12/19/2019 14:19:31] Key Generation Succeeded
+[12/19/2019 14:19:31] Success!
+[12/19/2019 14:19:31] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:53] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:53] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall WebSockets
+[05/13/2020 22:53:53] Servicing Uninstall of component WebSockets succeeded!
+[05/13/2020 22:53:53] Success!
+[05/13/2020 22:53:53] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:53] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:53] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/webSocket
+[05/13/2020 22:53:53] Launch command does not execute during servicing path
+[05/13/2020 22:53:53] Success!
+[05/13/2020 22:53:53] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:53] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:53] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe uninstall module WebSocketModule
+[05/13/2020 22:53:53] Launch command does not execute during servicing path
+[05/13/2020 22:53:53] Success!
+[05/13/2020 22:53:53] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:53] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:53] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-iis-sharedlibraries_31bf3856ad364e35_10.0.19041.1_none_c6da8048542fddc7\aspnetca.exe" /uninstall_common "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb"
+[05/13/2020 22:53:53] Servicing code path, nothing to uninstall, exit...
+[05/13/2020 22:53:53] Uninstallation success
+[05/13/2020 22:53:53] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:54] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:54] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe lock config -section:system.webServer/modules
+[05/13/2020 22:53:54] Launch command does not execute during servicing path
+[05/13/2020 22:53:54] Success!
+[05/13/2020 22:53:54] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:54] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:54] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe lock config -section:system.webServer/handlers
+[05/13/2020 22:53:54] Launch command does not execute during servicing path
+[05/13/2020 22:53:54] Success!
+[05/13/2020 22:53:54] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:55] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:55] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall ASPNET45
+[05/13/2020 22:53:55] Servicing Uninstall of component ASPNET45 succeeded!
+[05/13/2020 22:53:55] Success!
+[05/13/2020 22:53:55] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:55] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:55] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-iis-sharedlibraries_31bf3856ad364e35_10.0.19041.1_none_c6da8048542fddc7\aspnetca.exe" /uninstall /fullaspnet 4.0.30319.0 "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb"
+[05/13/2020 22:53:55] Servicing code path, nothing to uninstall, exit...
+[05/13/2020 22:53:55] Uninstallation success
+[05/13/2020 22:53:55] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:56] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:56] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall WASConfigurationAPI
+[05/13/2020 22:53:56] Servicing Uninstall of component WASConfigurationAPI succeeded!
+[05/13/2020 22:53:56] Success!
+[05/13/2020 22:53:56] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:56] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:56] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe uninstall module ConfigurationValidationModule
+[05/13/2020 22:53:56] Launch command does not execute during servicing path
+[05/13/2020 22:53:56] Success!
+[05/13/2020 22:53:56] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:56] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:56] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall NetFxExtensibility45
+[05/13/2020 22:53:56] Servicing Uninstall of component NetFxExtensibility45 succeeded!
+[05/13/2020 22:53:56] Success!
+[05/13/2020 22:53:56] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:56] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:56] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-iis-sharedlibraries_31bf3856ad364e35_10.0.19041.1_none_c6da8048542fddc7\aspnetca.exe" /uninstall /managedextensibility 4.0.30319.0 "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb"
+[05/13/2020 22:53:56] Servicing code path, nothing to uninstall, exit...
+[05/13/2020 22:53:56] Uninstallation success
+[05/13/2020 22:53:56] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:57] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:57] "C:\WINDOWS\WinSxS\wow64_microsoft-windows-iis-sharedlibraries_31bf3856ad364e35_10.0.19041.1_none_d12f2a9a88909fc2\aspnetca.exe" /uninstall /managedextensibility 4.0.30319.0 "C:\WINDOWS\WinSxS\wow64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_91c1d6c40350b1b6"
+[05/13/2020 22:53:57] Servicing code path, nothing to uninstall, exit...
+[05/13/2020 22:53:57] Uninstallation success
+[05/13/2020 22:53:57] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:57] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:57] "C:\WINDOWS\WinSxS\wow64_microsoft-windows-iis-sharedlibraries_31bf3856ad364e35_10.0.19041.1_none_d12f2a9a88909fc2\aspnetca.exe" /uninstall /fullaspnet 4.0.30319.0 "C:\WINDOWS\WinSxS\wow64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_91c1d6c40350b1b6"
+[05/13/2020 22:53:57] Servicing code path, nothing to uninstall, exit...
+[05/13/2020 22:53:57] Uninstallation success
+[05/13/2020 22:53:57] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:57] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:57] "C:\WINDOWS\WinSxS\wow64_microsoft-windows-iis-sharedlibraries_31bf3856ad364e35_10.0.19041.1_none_d12f2a9a88909fc2\aspnetca.exe" /uninstall /fullaspnet 4.0.30319.0 "C:\WINDOWS\WinSxS\wow64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_91c1d6c40350b1b6"
+[05/13/2020 22:53:57] Servicing code path, nothing to uninstall, exit...
+[05/13/2020 22:53:57] Uninstallation success
+[05/13/2020 22:53:57] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:57] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:57] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall AdminService
+[05/13/2020 22:53:57] Servicing Uninstall of component AdminService succeeded!
+[05/13/2020 22:53:57] Success!
+[05/13/2020 22:53:57] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:57] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:57] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall PowerShellProvider
+[05/13/2020 22:53:57] Servicing Uninstall of component PowerShellProvider succeeded!
+[05/13/2020 22:53:57] Success!
+[05/13/2020 22:53:57] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:57] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:57] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall ManagementConsole
+[05/13/2020 22:53:57] Servicing Uninstall of component ManagementConsole succeeded!
+[05/13/2020 22:53:57] Success!
+[05/13/2020 22:53:57] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:57] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:57] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall ManagementScriptingTools
+[05/13/2020 22:53:57] Servicing Uninstall of component ManagementScriptingTools succeeded!
+[05/13/2020 22:53:57] Success!
+[05/13/2020 22:53:57] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:53:57] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:53:57] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall ISAPIFilter
+[05/13/2020 22:53:58] Servicing Uninstall of component ISAPIFilter succeeded!
+[05/13/2020 22:53:58] Success!
+[05/13/2020 22:53:58] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:00] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:00] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall ISAPIFilterBinaries
+[05/13/2020 22:54:00] Servicing Uninstall of component ISAPIFilterBinaries succeeded!
+[05/13/2020 22:54:00] Success!
+[05/13/2020 22:54:00] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:00] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:00] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe uninstall module IsapiFilterModule
+[05/13/2020 22:54:00] Launch command does not execute during servicing path
+[05/13/2020 22:54:00] Success!
+[05/13/2020 22:54:00] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:01] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:01] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall ISAPIExtensions
+[05/13/2020 22:54:01] Servicing Uninstall of component ISAPIExtensions succeeded!
+[05/13/2020 22:54:01] Success!
+[05/13/2020 22:54:01] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:01] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:01] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall ISAPIExtensionsBinaries
+[05/13/2020 22:54:01] Servicing Uninstall of component ISAPIExtensionsBinaries succeeded!
+[05/13/2020 22:54:01] Success!
+[05/13/2020 22:54:01] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:02] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:02] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe uninstall module IsapiModule
+[05/13/2020 22:54:02] Launch command does not execute during servicing path
+[05/13/2020 22:54:02] Success!
+[05/13/2020 22:54:02] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:02] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:02] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall HttpErrors
+[05/13/2020 22:54:02] Servicing Uninstall of component HttpErrors succeeded!
+[05/13/2020 22:54:02] Success!
+[05/13/2020 22:54:02] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:02] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:02] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall HttpErrorsBinaries
+[05/13/2020 22:54:02] Servicing Uninstall of component HttpErrorsBinaries succeeded!
+[05/13/2020 22:54:02] Success!
+[05/13/2020 22:54:02] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:03] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:03] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/httpErrors
+[05/13/2020 22:54:03] Launch command does not execute during servicing path
+[05/13/2020 22:54:03] Success!
+[05/13/2020 22:54:03] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:03] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:03] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe uninstall module CustomErrorModule
+[05/13/2020 22:54:03] Launch command does not execute during servicing path
+[05/13/2020 22:54:03] Success!
+[05/13/2020 22:54:03] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:03] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:03] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall RequestFiltering
+[05/13/2020 22:54:03] Servicing Uninstall of component RequestFiltering succeeded!
+[05/13/2020 22:54:03] Success!
+[05/13/2020 22:54:03] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:03] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:03] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall RequestFilteringBinaries
+[05/13/2020 22:54:03] Servicing Uninstall of component RequestFilteringBinaries succeeded!
+[05/13/2020 22:54:03] Success!
+[05/13/2020 22:54:03] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:04] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:04] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/security/requestFiltering
+[05/13/2020 22:54:04] Launch command does not execute during servicing path
+[05/13/2020 22:54:04] Success!
+[05/13/2020 22:54:04] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:04] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:04] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe uninstall module RequestFilteringModule
+[05/13/2020 22:54:04] Launch command does not execute during servicing path
+[05/13/2020 22:54:04] Success!
+[05/13/2020 22:54:04] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:04] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:04] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall WindowsAuthentication
+[05/13/2020 22:54:04] Servicing Uninstall of component WindowsAuthentication succeeded!
+[05/13/2020 22:54:04] Success!
+[05/13/2020 22:54:04] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:04] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:04] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall WindowsAuthenticationBinaries
+[05/13/2020 22:54:04] Servicing Uninstall of component WindowsAuthenticationBinaries succeeded!
+[05/13/2020 22:54:04] Success!
+[05/13/2020 22:54:04] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:04] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:04] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/security/authentication/windowsAuthentication
+[05/13/2020 22:54:04] Launch command does not execute during servicing path
+[05/13/2020 22:54:04] Success!
+[05/13/2020 22:54:04] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:04] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:04] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe uninstall module WindowsAuthenticationModule
+[05/13/2020 22:54:04] Launch command does not execute during servicing path
+[05/13/2020 22:54:04] Success!
+[05/13/2020 22:54:04] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:04] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:04] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall AnonymousAuthentication
+[05/13/2020 22:54:04] Servicing Uninstall of component AnonymousAuthentication succeeded!
+[05/13/2020 22:54:04] Success!
+[05/13/2020 22:54:04] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:04] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:04] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall AnonymousAuthenticationBinaries
+[05/13/2020 22:54:05] Servicing Uninstall of component AnonymousAuthenticationBinaries succeeded!
+[05/13/2020 22:54:05] Success!
+[05/13/2020 22:54:05] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:05] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:05] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/security/authentication/anonymousAuthentication
+[05/13/2020 22:54:05] Launch command does not execute during servicing path
+[05/13/2020 22:54:05] Success!
+[05/13/2020 22:54:05] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:05] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:05] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe uninstall module AnonymousAuthenticationModule
+[05/13/2020 22:54:05] Launch command does not execute during servicing path
+[05/13/2020 22:54:05] Success!
+[05/13/2020 22:54:05] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:05] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:05] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall StaticContent
+[05/13/2020 22:54:05] Servicing Uninstall of component StaticContent succeeded!
+[05/13/2020 22:54:05] Success!
+[05/13/2020 22:54:05] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:05] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:05] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall StaticContentBinaries
+[05/13/2020 22:54:05] Servicing Uninstall of component StaticContentBinaries succeeded!
+[05/13/2020 22:54:05] Success!
+[05/13/2020 22:54:05] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:05] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:05] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/staticContent
+[05/13/2020 22:54:05] Launch command does not execute during servicing path
+[05/13/2020 22:54:05] Success!
+[05/13/2020 22:54:05] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:05] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:05] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe uninstall module StaticFileModule
+[05/13/2020 22:54:05] Launch command does not execute during servicing path
+[05/13/2020 22:54:05] Success!
+[05/13/2020 22:54:05] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:05] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:05] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall HttpProtocol
+[05/13/2020 22:54:05] Servicing Uninstall of component HttpProtocol succeeded!
+[05/13/2020 22:54:05] Success!
+[05/13/2020 22:54:05] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:05] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:05] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall HttpProtocolBinaries
+[05/13/2020 22:54:05] Servicing Uninstall of component HttpProtocolBinaries succeeded!
+[05/13/2020 22:54:05] Success!
+[05/13/2020 22:54:05] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:05] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:05] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/httpProtocol
+[05/13/2020 22:54:06] Launch command does not execute during servicing path
+[05/13/2020 22:54:06] Success!
+[05/13/2020 22:54:06] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:06] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:06] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe uninstall module ProtocolSupportModule
+[05/13/2020 22:54:06] Launch command does not execute during servicing path
+[05/13/2020 22:54:06] Success!
+[05/13/2020 22:54:06] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:06] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:06] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall DirectoryBrowse
+[05/13/2020 22:54:06] Servicing Uninstall of component DirectoryBrowse succeeded!
+[05/13/2020 22:54:06] Success!
+[05/13/2020 22:54:06] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:06] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:06] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall DirectoryBrowseBinaries
+[05/13/2020 22:54:06] Servicing Uninstall of component DirectoryBrowseBinaries succeeded!
+[05/13/2020 22:54:06] Success!
+[05/13/2020 22:54:06] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:06] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:06] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/directoryBrowse
+[05/13/2020 22:54:06] Launch command does not execute during servicing path
+[05/13/2020 22:54:06] Success!
+[05/13/2020 22:54:06] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:06] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:06] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe uninstall module DirectoryListingModule
+[05/13/2020 22:54:06] Launch command does not execute during servicing path
+[05/13/2020 22:54:06] Success!
+[05/13/2020 22:54:06] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:06] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:06] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall DefaultDocument
+[05/13/2020 22:54:06] Servicing Uninstall of component DefaultDocument succeeded!
+[05/13/2020 22:54:06] Success!
+[05/13/2020 22:54:06] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:06] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:06] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall DefaultDocumentBinaries
+[05/13/2020 22:54:06] Servicing Uninstall of component DefaultDocumentBinaries succeeded!
+[05/13/2020 22:54:06] Success!
+[05/13/2020 22:54:06] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:06] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:06] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/defaultDocument
+[05/13/2020 22:54:06] Launch command does not execute during servicing path
+[05/13/2020 22:54:06] Success!
+[05/13/2020 22:54:06] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:07] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:07] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe uninstall module DefaultDocumentModule
+[05/13/2020 22:54:07] Launch command does not execute during servicing path
+[05/13/2020 22:54:07] Success!
+[05/13/2020 22:54:07] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:07] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:07] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall HttpCompressionStatic
+[05/13/2020 22:54:07] Servicing Uninstall of component HttpCompressionStatic succeeded!
+[05/13/2020 22:54:07] Success!
+[05/13/2020 22:54:07] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:07] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:07] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall HttpCompressionStaticBinaries
+[05/13/2020 22:54:07] Servicing Uninstall of component HttpCompressionStaticBinaries succeeded!
+[05/13/2020 22:54:07] Success!
+[05/13/2020 22:54:07] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:07] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:07] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe uninstall module StaticCompressionModule
+[05/13/2020 22:54:07] Launch command does not execute during servicing path
+[05/13/2020 22:54:07] Success!
+[05/13/2020 22:54:07] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:07] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:07] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall HttpCompressionDynamic
+[05/13/2020 22:54:07] Servicing Uninstall of component HttpCompressionDynamic succeeded!
+[05/13/2020 22:54:07] Success!
+[05/13/2020 22:54:07] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:07] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:07] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall HttpCompressionDynamicBinaries
+[05/13/2020 22:54:07] Servicing Uninstall of component HttpCompressionDynamicBinaries succeeded!
+[05/13/2020 22:54:07] Success!
+[05/13/2020 22:54:07] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:07] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:07] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe uninstall module DynamicCompressionModule
+[05/13/2020 22:54:07] Launch command does not execute during servicing path
+[05/13/2020 22:54:07] Success!
+[05/13/2020 22:54:07] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:07] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:07] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall CompressionBinaries
+[05/13/2020 22:54:07] Servicing Uninstall of component CompressionBinaries succeeded!
+[05/13/2020 22:54:07] Success!
+[05/13/2020 22:54:07] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:07] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:07] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/httpCompression
+[05/13/2020 22:54:07] Launch command does not execute during servicing path
+[05/13/2020 22:54:07] Success!
+[05/13/2020 22:54:07] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:07] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:07] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall HttpCache
+[05/13/2020 22:54:07] Servicing Uninstall of component HttpCache succeeded!
+[05/13/2020 22:54:08] Success!
+[05/13/2020 22:54:08] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:08] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:08] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall HttpCacheBinaries
+[05/13/2020 22:54:08] Servicing Uninstall of component HttpCacheBinaries succeeded!
+[05/13/2020 22:54:08] Success!
+[05/13/2020 22:54:08] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:08] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:08] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/caching
+[05/13/2020 22:54:08] Launch command does not execute during servicing path
+[05/13/2020 22:54:08] Success!
+[05/13/2020 22:54:08] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:08] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:08] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe uninstall module HttpCacheModule
+[05/13/2020 22:54:08] Launch command does not execute during servicing path
+[05/13/2020 22:54:08] Success!
+[05/13/2020 22:54:08] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:08] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:08] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall Caching
+[05/13/2020 22:54:08] Servicing Uninstall of component Caching succeeded!
+[05/13/2020 22:54:08] Success!
+[05/13/2020 22:54:08] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:08] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:08] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall CachingBase
+[05/13/2020 22:54:08] Servicing Uninstall of component CachingBase succeeded!
+[05/13/2020 22:54:08] Success!
+[05/13/2020 22:54:08] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:08] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:08] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall CachingBaseBinaries
+[05/13/2020 22:54:08] Servicing Uninstall of component CachingBaseBinaries succeeded!
+[05/13/2020 22:54:08] Success!
+[05/13/2020 22:54:08] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:08] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:08] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe uninstall module UriCacheModule
+[05/13/2020 22:54:08] Launch command does not execute during servicing path
+[05/13/2020 22:54:08] Success!
+[05/13/2020 22:54:08] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:08] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:08] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe uninstall module FileCacheModule
+[05/13/2020 22:54:08] Launch command does not execute during servicing path
+[05/13/2020 22:54:08] Success!
+[05/13/2020 22:54:08] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:08] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:08] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe uninstall module TokenCacheModule
+[05/13/2020 22:54:08] Launch command does not execute during servicing path
+[05/13/2020 22:54:08] Success!
+[05/13/2020 22:54:08] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:08] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:08] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall HTTPLogging
+[05/13/2020 22:54:08] Servicing Uninstall of component HttpLogging succeeded!
+[05/13/2020 22:54:08] Success!
+[05/13/2020 22:54:08] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:08] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:08] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall HttpLoggingBinaries
+[05/13/2020 22:54:08] Servicing Uninstall of component HttpLoggingBinaries succeeded!
+[05/13/2020 22:54:08] Success!
+[05/13/2020 22:54:08] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:08] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:08] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/httpLogging
+[05/13/2020 22:54:09] Launch command does not execute during servicing path
+[05/13/2020 22:54:09] Success!
+[05/13/2020 22:54:09] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:09] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:09] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/log
+[05/13/2020 22:54:09] Launch command does not execute during servicing path
+[05/13/2020 22:54:09] Success!
+[05/13/2020 22:54:09] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:09] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:09] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe uninstall module HttpLoggingModule
+[05/13/2020 22:54:09] Launch command does not execute during servicing path
+[05/13/2020 22:54:09] Success!
+[05/13/2020 22:54:09] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:09] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:09] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall W3SVC
+[05/13/2020 22:54:09] Servicing Uninstall of component W3SVC succeeded!
+[05/13/2020 22:54:09] Success!
+[05/13/2020 22:54:09] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:09] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:09] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/security/access
+[05/13/2020 22:54:09] Launch command does not execute during servicing path
+[05/13/2020 22:54:09] Success!
+[05/13/2020 22:54:09] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:09] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:09] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/handlers
+[05/13/2020 22:54:09] Launch command does not execute during servicing path
+[05/13/2020 22:54:09] Success!
+[05/13/2020 22:54:09] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:09] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:09] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/httpCompression
+[05/13/2020 22:54:09] Launch command does not execute during servicing path
+[05/13/2020 22:54:09] Success!
+[05/13/2020 22:54:09] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:09] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:09] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/globalModules
+[05/13/2020 22:54:09] Launch command does not execute during servicing path
+[05/13/2020 22:54:09] Success!
+[05/13/2020 22:54:09] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:09] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:09] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/modules
+[05/13/2020 22:54:09] Launch command does not execute during servicing path
+[05/13/2020 22:54:09] Success!
+[05/13/2020 22:54:09] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:09] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:09] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/urlCompression
+[05/13/2020 22:54:09] Launch command does not execute during servicing path
+[05/13/2020 22:54:09] Success!
+[05/13/2020 22:54:09] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:09] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:09] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/isapiCgiRestriction
+[05/13/2020 22:54:09] Launch command does not execute during servicing path
+[05/13/2020 22:54:09] Success!
+[05/13/2020 22:54:09] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:09] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:09] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/webLimits
+[05/13/2020 22:54:09] Launch command does not execute during servicing path
+[05/13/2020 22:54:09] Success!
+[05/13/2020 22:54:09] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:09] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:09] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/serverRuntime
+[05/13/2020 22:54:09] Launch command does not execute during servicing path
+[05/13/2020 22:54:09] Success!
+[05/13/2020 22:54:09] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:09] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:09] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/security/applicationDependencies
+[05/13/2020 22:54:09] Launch command does not execute during servicing path
+[05/13/2020 22:54:09] Success!
+[05/13/2020 22:54:09] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:10] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:10] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall CoreWebEngine
+[05/13/2020 22:54:10] Servicing Uninstall of component CoreWebEngine succeeded!
+[05/13/2020 22:54:10] Success!
+[05/13/2020 22:54:10] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:10] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:10] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall ProcessModel
+[05/13/2020 22:54:10] Servicing Uninstall of component ProcessModel succeeded!
+[05/13/2020 22:54:10] Success!
+[05/13/2020 22:54:10] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:10] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:10] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall ProcessModelLibraries
+[05/13/2020 22:54:10] Servicing Uninstall of component ProcessModelLibraries succeeded!
+[05/13/2020 22:54:10] Success!
+[05/13/2020 22:54:10] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:10] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:10] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall SharedLibraries
+[05/13/2020 22:54:10] Servicing Uninstall of component SharedLibraries succeeded!
+[05/13/2020 22:54:10] Success!
+[05/13/2020 22:54:10] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:15] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:15] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.applicationHost/applicationPools
+[05/13/2020 22:54:15] Launch command does not execute during servicing path
+[05/13/2020 22:54:15] Success!
+[05/13/2020 22:54:15] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:15] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:15] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.applicationHost/listenerAdapters
+[05/13/2020 22:54:15] Launch command does not execute during servicing path
+[05/13/2020 22:54:15] Success!
+[05/13/2020 22:54:15] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:15] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:15] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.applicationHost/log
+[05/13/2020 22:54:15] Launch command does not execute during servicing path
+[05/13/2020 22:54:15] Success!
+[05/13/2020 22:54:15] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:15] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:15] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.applicationHost/sites
+[05/13/2020 22:54:15] Launch command does not execute during servicing path
+[05/13/2020 22:54:15] Success!
+[05/13/2020 22:54:15] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:15] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:15] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.applicationHost/webLimits
+[05/13/2020 22:54:15] Launch command does not execute during servicing path
+[05/13/2020 22:54:15] Success!
+[05/13/2020 22:54:15] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:15] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:15] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install SharedLibraries
+[05/13/2020 22:54:15] Created registry value HKLM\System\CurrentControlSet\Services\WAS\Parameters\GenerateKeys
+[05/13/2020 22:54:15] Servicing Install of component SharedLibraries succeeded!
+[05/13/2020 22:54:15] Success!
+[05/13/2020 22:54:15] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:15] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:15] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install ProcessModelLibraries
+[05/13/2020 22:54:15] Servicing Install of component ProcessModelLibraries succeeded!
+[05/13/2020 22:54:15] Success!
+[05/13/2020 22:54:15] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:15] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:15] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install ProcessModel
+[05/13/2020 22:54:15] Servicing Install of component ProcessModel succeeded!
+[05/13/2020 22:54:15] Success!
+[05/13/2020 22:54:15] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:15] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:15] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install CoreWebEngine
+[05/13/2020 22:54:15] Servicing Install of component CoreWebEngine succeeded!
+[05/13/2020 22:54:15] Success!
+[05/13/2020 22:54:15] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:15] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:15] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install W3SVC
+[05/13/2020 22:54:16] Servicing Install of component W3SVC succeeded!
+[05/13/2020 22:54:16] Success!
+[05/13/2020 22:54:16] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:16] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:16] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/security/access
+[05/13/2020 22:54:16] Launch command does not execute during servicing path
+[05/13/2020 22:54:16] Success!
+[05/13/2020 22:54:16] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:16] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:16] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/handlers
+[05/13/2020 22:54:16] Launch command does not execute during servicing path
+[05/13/2020 22:54:16] Success!
+[05/13/2020 22:54:16] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:16] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:16] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/httpCompression
+[05/13/2020 22:54:16] Launch command does not execute during servicing path
+[05/13/2020 22:54:16] Success!
+[05/13/2020 22:54:16] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:16] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:16] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HTTPLogging
+[05/13/2020 22:54:16] Servicing Install of component HttpLogging succeeded!
+[05/13/2020 22:54:16] Success!
+[05/13/2020 22:54:16] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:16] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:16] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpLoggingBinaries
+[05/13/2020 22:54:16] Servicing Install of component HttpLoggingBinaries succeeded!
+[05/13/2020 22:54:16] Success!
+[05/13/2020 22:54:16] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:16] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:16] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/httpLogging
+[05/13/2020 22:54:16] Launch command does not execute during servicing path
+[05/13/2020 22:54:16] Success!
+[05/13/2020 22:54:16] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:16] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:16] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.applicationHost/log
+[05/13/2020 22:54:16] Launch command does not execute during servicing path
+[05/13/2020 22:54:16] Success!
+[05/13/2020 22:54:16] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:16] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:16] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:HttpLoggingModule -image:C:\WINDOWS\System32\inetsrv\loghttp.dll -lock:true
+[05/13/2020 22:54:16] Launch command does not execute during servicing path
+[05/13/2020 22:54:16] Success!
+[05/13/2020 22:54:16] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:16] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:16] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install CachingBase
+[05/13/2020 22:54:16] Servicing Install of component CachingBase succeeded!
+[05/13/2020 22:54:16] Success!
+[05/13/2020 22:54:16] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:16] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:16] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install CachingBaseBinaries
+[05/13/2020 22:54:16] Servicing Install of component CachingBaseBinaries succeeded!
+[05/13/2020 22:54:16] Success!
+[05/13/2020 22:54:16] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:16] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:16] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:UriCacheModule -image:C:\WINDOWS\System32\inetsrv\cachuri.dll -add:false -lock:true
+[05/13/2020 22:54:16] Launch command does not execute during servicing path
+[05/13/2020 22:54:16] Success!
+[05/13/2020 22:54:16] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:16] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:16] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:FileCacheModule -image:C:\WINDOWS\System32\inetsrv\cachfile.dll -add:false -lock:true
+[05/13/2020 22:54:16] Launch command does not execute during servicing path
+[05/13/2020 22:54:16] Success!
+[05/13/2020 22:54:16] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:16] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:16] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:TokenCacheModule -image:C:\WINDOWS\System32\inetsrv\cachtokn.dll -add:false -lock:true
+[05/13/2020 22:54:16] Launch command does not execute during servicing path
+[05/13/2020 22:54:16] Success!
+[05/13/2020 22:54:16] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:16] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:16] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install Caching
+[05/13/2020 22:54:16] Servicing Install of component Caching succeeded!
+[05/13/2020 22:54:16] Success!
+[05/13/2020 22:54:16] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:16] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:16] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpCache
+[05/13/2020 22:54:16] Servicing Install of component HttpCache succeeded!
+[05/13/2020 22:54:16] Success!
+[05/13/2020 22:54:16] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:16] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:16] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpCacheBinaries
+[05/13/2020 22:54:16] Servicing Install of component HttpCacheBinaries succeeded!
+[05/13/2020 22:54:16] Success!
+[05/13/2020 22:54:16] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:16] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:16] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/caching
+[05/13/2020 22:54:16] Launch command does not execute during servicing path
+[05/13/2020 22:54:16] Success!
+[05/13/2020 22:54:16] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:16] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:16] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:HttpCacheModule -image:C:\WINDOWS\System32\inetsrv\cachhttp.dll -lock:true
+[05/13/2020 22:54:17] Launch command does not execute during servicing path
+[05/13/2020 22:54:17] Success!
+[05/13/2020 22:54:17] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:17] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:17] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install CompressionBinaries
+[05/13/2020 22:54:17] Servicing Install of component CompressionBinaries succeeded!
+[05/13/2020 22:54:17] Success!
+[05/13/2020 22:54:17] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:17] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:17] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/httpCompression
+[05/13/2020 22:54:17] Launch command does not execute during servicing path
+[05/13/2020 22:54:17] Success!
+[05/13/2020 22:54:17] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:17] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:17] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:DynamicCompressionModule -image:C:\WINDOWS\System32\inetsrv\compdyn.dll -lock:true
+[05/13/2020 22:54:17] Launch command does not execute during servicing path
+[05/13/2020 22:54:17] Success!
+[05/13/2020 22:54:17] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:17] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:17] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpCompressionDynamic
+[05/13/2020 22:54:17] Servicing Install of component HttpCompressionDynamic succeeded!
+[05/13/2020 22:54:17] Success!
+[05/13/2020 22:54:17] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:17] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:17] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpCompressionDynamicBinaries
+[05/13/2020 22:54:17] Servicing Install of component HttpCompressionDynamicBinaries succeeded!
+[05/13/2020 22:54:17] Success!
+[05/13/2020 22:54:17] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:17] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:17] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:StaticCompressionModule -image:C:\WINDOWS\System32\inetsrv\compstat.dll -lock:true
+[05/13/2020 22:54:17] Launch command does not execute during servicing path
+[05/13/2020 22:54:17] Success!
+[05/13/2020 22:54:17] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:17] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:17] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpCompressionStatic
+[05/13/2020 22:54:17] Servicing Install of component HttpCompressionStatic succeeded!
+[05/13/2020 22:54:17] Success!
+[05/13/2020 22:54:17] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:17] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:17] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpCompressionStaticBinaries
+[05/13/2020 22:54:17] Servicing Install of component HttpCompressionStaticBinaries succeeded!
+[05/13/2020 22:54:17] Success!
+[05/13/2020 22:54:17] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:17] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:17] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/defaultDocument
+[05/13/2020 22:54:17] Launch command does not execute during servicing path
+[05/13/2020 22:54:17] Success!
+[05/13/2020 22:54:17] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:17] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:17] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:DefaultDocumentModule -image:C:\WINDOWS\System32\inetsrv\defdoc.dll -lock:true
+[05/13/2020 22:54:17] Launch command does not execute during servicing path
+[05/13/2020 22:54:17] Success!
+[05/13/2020 22:54:17] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:17] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:17] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install DefaultDocument
+[05/13/2020 22:54:17] Servicing Install of component DefaultDocument succeeded!
+[05/13/2020 22:54:17] Success!
+[05/13/2020 22:54:17] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:17] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:17] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install DefaultDocumentBinaries
+[05/13/2020 22:54:17] Servicing Install of component DefaultDocumentBinaries succeeded!
+[05/13/2020 22:54:17] Success!
+[05/13/2020 22:54:17] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:17] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:17] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/directoryBrowse
+[05/13/2020 22:54:17] Launch command does not execute during servicing path
+[05/13/2020 22:54:17] Success!
+[05/13/2020 22:54:17] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:17] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:17] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:DirectoryListingModule -image:C:\WINDOWS\System32\inetsrv\dirlist.dll -lock:true
+[05/13/2020 22:54:17] Launch command does not execute during servicing path
+[05/13/2020 22:54:17] Success!
+[05/13/2020 22:54:17] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:17] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:17] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install DirectoryBrowse
+[05/13/2020 22:54:17] Servicing Install of component DirectoryBrowse succeeded!
+[05/13/2020 22:54:17] Success!
+[05/13/2020 22:54:17] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:17] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:17] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install DirectoryBrowseBinaries
+[05/13/2020 22:54:17] Servicing Install of component DirectoryBrowseBinaries succeeded!
+[05/13/2020 22:54:17] Success!
+[05/13/2020 22:54:17] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:17] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:17] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpProtocol
+[05/13/2020 22:54:17] Servicing Install of component HttpProtocol succeeded!
+[05/13/2020 22:54:17] Success!
+[05/13/2020 22:54:17] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:18] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:18] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpProtocolBinaries
+[05/13/2020 22:54:18] Servicing Install of component HttpProtocolBinaries succeeded!
+[05/13/2020 22:54:18] Success!
+[05/13/2020 22:54:18] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:18] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:18] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/httpProtocol
+[05/13/2020 22:54:18] Launch command does not execute during servicing path
+[05/13/2020 22:54:18] Success!
+[05/13/2020 22:54:18] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:18] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:18] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:ProtocolSupportModule -image:C:\WINDOWS\System32\inetsrv\protsup.dll -lock:true
+[05/13/2020 22:54:18] Launch command does not execute during servicing path
+[05/13/2020 22:54:18] Success!
+[05/13/2020 22:54:18] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:18] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:18] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/staticContent
+[05/13/2020 22:54:18] Launch command does not execute during servicing path
+[05/13/2020 22:54:18] Success!
+[05/13/2020 22:54:18] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:18] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:18] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:StaticFileModule -image:C:\WINDOWS\System32\inetsrv\static.dll -lock:true
+[05/13/2020 22:54:18] Launch command does not execute during servicing path
+[05/13/2020 22:54:18] Success!
+[05/13/2020 22:54:18] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:18] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:18] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install StaticContent
+[05/13/2020 22:54:18] Servicing Install of component StaticContent succeeded!
+[05/13/2020 22:54:18] Success!
+[05/13/2020 22:54:18] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:18] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:18] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install StaticContentBinaries
+[05/13/2020 22:54:18] Servicing Install of component StaticContentBinaries succeeded!
+[05/13/2020 22:54:18] Success!
+[05/13/2020 22:54:18] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:18] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:18] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install AnonymousAuthentication
+[05/13/2020 22:54:18] Servicing Install of component AnonymousAuthentication succeeded!
+[05/13/2020 22:54:18] Success!
+[05/13/2020 22:54:18] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:18] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:18] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install AnonymousAuthenticationBinaries
+[05/13/2020 22:54:18] Servicing Install of component AnonymousAuthenticationBinaries succeeded!
+[05/13/2020 22:54:18] Success!
+[05/13/2020 22:54:18] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:18] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:18] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/security/authentication/anonymousAuthentication
+[05/13/2020 22:54:18] Launch command does not execute during servicing path
+[05/13/2020 22:54:18] Success!
+[05/13/2020 22:54:18] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:18] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:18] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:AnonymousAuthenticationModule -image:C:\WINDOWS\System32\inetsrv\authanon.dll -lock:true
+[05/13/2020 22:54:18] Launch command does not execute during servicing path
+[05/13/2020 22:54:18] Success!
+[05/13/2020 22:54:18] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:18] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:18] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install WindowsAuthentication
+[05/13/2020 22:54:18] Servicing Install of component WindowsAuthentication succeeded!
+[05/13/2020 22:54:18] Success!
+[05/13/2020 22:54:18] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:18] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:18] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install WindowsAuthenticationBinaries
+[05/13/2020 22:54:18] Servicing Install of component WindowsAuthenticationBinaries succeeded!
+[05/13/2020 22:54:18] Success!
+[05/13/2020 22:54:18] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:18] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:18] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/security/authentication/windowsAuthentication
+[05/13/2020 22:54:18] Launch command does not execute during servicing path
+[05/13/2020 22:54:18] Success!
+[05/13/2020 22:54:18] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:18] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:18] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:WindowsAuthenticationModule -image:C:\WINDOWS\System32\inetsrv\authsspi.dll -lock:true
+[05/13/2020 22:54:18] Launch command does not execute during servicing path
+[05/13/2020 22:54:18] Success!
+[05/13/2020 22:54:18] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:18] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:18] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install RequestFiltering
+[05/13/2020 22:54:18] Servicing Install of component RequestFiltering succeeded!
+[05/13/2020 22:54:18] Success!
+[05/13/2020 22:54:18] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:18] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:18] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install RequestFilteringBinaries
+[05/13/2020 22:54:18] Servicing Install of component RequestFilteringBinaries succeeded!
+[05/13/2020 22:54:18] Success!
+[05/13/2020 22:54:18] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:18] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:18] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/security/requestFiltering
+[05/13/2020 22:54:18] Launch command does not execute during servicing path
+[05/13/2020 22:54:18] Success!
+[05/13/2020 22:54:18] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:19] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:19] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:RequestFilteringModule -image:C:\WINDOWS\System32\inetsrv\modrqflt.dll -lock:true
+[05/13/2020 22:54:19] Launch command does not execute during servicing path
+[05/13/2020 22:54:19] Success!
+[05/13/2020 22:54:19] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:19] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:19] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpErrors
+[05/13/2020 22:54:19] Servicing Install of component HttpErrors succeeded!
+[05/13/2020 22:54:19] Success!
+[05/13/2020 22:54:19] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:19] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:19] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install HttpErrorsBinaries
+[05/13/2020 22:54:19] Servicing Install of component HttpErrorsBinaries succeeded!
+[05/13/2020 22:54:19] Success!
+[05/13/2020 22:54:19] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:19] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:19] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/httpErrors
+[05/13/2020 22:54:19] Launch command does not execute during servicing path
+[05/13/2020 22:54:19] Success!
+[05/13/2020 22:54:19] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:19] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:19] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:CustomErrorModule -image:C:\WINDOWS\System32\inetsrv\custerr.dll -lock:true
+[05/13/2020 22:54:19] Launch command does not execute during servicing path
+[05/13/2020 22:54:19] Success!
+[05/13/2020 22:54:19] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:19] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:19] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:IsapiModule -image:C:\WINDOWS\System32\inetsrv\isapi.dll -lock:true
+[05/13/2020 22:54:19] Launch command does not execute during servicing path
+[05/13/2020 22:54:19] Success!
+[05/13/2020 22:54:19] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:19] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:19] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install ISAPIExtensions
+[05/13/2020 22:54:19] Servicing Install of component ISAPIExtensions succeeded!
+[05/13/2020 22:54:19] Success!
+[05/13/2020 22:54:19] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:19] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:19] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install ISAPIExtensionsBinaries
+[05/13/2020 22:54:19] Servicing Install of component ISAPIExtensionsBinaries succeeded!
+[05/13/2020 22:54:19] Success!
+[05/13/2020 22:54:19] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:19] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:19] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install ISAPIFilter
+[05/13/2020 22:54:19] Servicing Install of component ISAPIFilter succeeded!
+[05/13/2020 22:54:19] Success!
+[05/13/2020 22:54:19] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:19] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:19] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install ISAPIFilterBinaries
+[05/13/2020 22:54:19] Servicing Install of component ISAPIFilterBinaries succeeded!
+[05/13/2020 22:54:19] Success!
+[05/13/2020 22:54:19] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:19] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:19] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:IsapiFilterModule -image:C:\WINDOWS\System32\inetsrv\filter.dll -lock:true
+[05/13/2020 22:54:19] Launch command does not execute during servicing path
+[05/13/2020 22:54:19] Success!
+[05/13/2020 22:54:19] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:19] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:19] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/isapiFilters
+[05/13/2020 22:54:19] Launch command does not execute during servicing path
+[05/13/2020 22:54:19] Success!
+[05/13/2020 22:54:19] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:19] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:19] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe clear config -section:system.webServer/isapiFilters
+[05/13/2020 22:54:19] Launch command does not execute during servicing path
+[05/13/2020 22:54:19] Success!
+[05/13/2020 22:54:19] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:19] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:19] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install ManagementScriptingTools
+[05/13/2020 22:54:19] Servicing Install of component ManagementScriptingTools succeeded!
+[05/13/2020 22:54:19] Success!
+[05/13/2020 22:54:19] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:19] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:19] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install ManagementConsole
+[05/13/2020 22:54:19] Servicing Install of component ManagementConsole succeeded!
+[05/13/2020 22:54:19] Success!
+[05/13/2020 22:54:19] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:19] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:19] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install PowerShellProvider
+[05/13/2020 22:54:19] Servicing Install of component PowerShellProvider succeeded!
+[05/13/2020 22:54:19] Success!
+[05/13/2020 22:54:19] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:19] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:19] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install AdminService
+[05/13/2020 22:54:19] Servicing Install of component AdminService succeeded!
+[05/13/2020 22:54:19] Success!
+[05/13/2020 22:54:19] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:19] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:19] "C:\WINDOWS\SysWOW64\inetsrv\aspnetca.exe" /install /fullaspnet 4.0.30319.0
+[05/13/2020 22:54:20] Servicing code path, nothing to uninstall, exit...
+[05/13/2020 22:54:20] Installation success
+[05/13/2020 22:54:20] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:20] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:20] "C:\WINDOWS\System32\inetsrv\aspnetca.exe" /install /managedextensibility 4.0.30319.0
+[05/13/2020 22:54:20] Servicing code path, nothing to uninstall, exit...
+[05/13/2020 22:54:20] Installation success
+[05/13/2020 22:54:20] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:20] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:20] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install NetFxExtensibility45
+[05/13/2020 22:54:20] Servicing Install of component NetFxExtensibility45 succeeded!
+[05/13/2020 22:54:20] Success!
+[05/13/2020 22:54:20] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:20] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:20] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:ConfigurationValidationModule -image:C:\WINDOWS\System32\inetsrv\validcfg.dll -lock:true
+[05/13/2020 22:54:20] Launch command does not execute during servicing path
+[05/13/2020 22:54:20] Success!
+[05/13/2020 22:54:20] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:20] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:20] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install WASConfigurationAPI
+[05/13/2020 22:54:20] Servicing Install of component WASConfigurationAPI succeeded!
+[05/13/2020 22:54:20] Success!
+[05/13/2020 22:54:20] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:20] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:20] "C:\WINDOWS\System32\inetsrv\aspnetca.exe" /install /fullaspnet 4.0.30319.0
+[05/13/2020 22:54:20] Servicing code path, nothing to uninstall, exit...
+[05/13/2020 22:54:20] Installation success
+[05/13/2020 22:54:20] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:20] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:20] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install ASPNET45
+[05/13/2020 22:54:20] Servicing Install of component ASPNET45 succeeded!
+[05/13/2020 22:54:20] Success!
+[05/13/2020 22:54:20] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:20] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:20] "C:\WINDOWS\System32\inetsrv\aspnetca.exe" /install_common
+[05/13/2020 22:54:20] Servicing code path, nothing to uninstall, exit...
+[05/13/2020 22:54:20] Installation success
+[05/13/2020 22:54:20] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:20] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:20] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe unlock config -section:system.webServer/handlers
+[05/13/2020 22:54:20] Launch command does not execute during servicing path
+[05/13/2020 22:54:20] Success!
+[05/13/2020 22:54:20] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:20] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:20] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe unlock config -section:system.webServer/modules
+[05/13/2020 22:54:20] Launch command does not execute during servicing path
+[05/13/2020 22:54:20] Success!
+[05/13/2020 22:54:20] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:20] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:20] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe reset config -section:system.webServer/webSocket
+[05/13/2020 22:54:20] Launch command does not execute during servicing path
+[05/13/2020 22:54:20] Success!
+[05/13/2020 22:54:20] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:20] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:20] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe install module -name:WebSocketModule -image:C:\WINDOWS\System32\inetsrv\iiswsock.dll -lock:true
+[05/13/2020 22:54:20] Launch command does not execute during servicing path
+[05/13/2020 22:54:20] Success!
+[05/13/2020 22:54:20] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:20] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:20] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install WebSockets
+[05/13/2020 22:54:20] Servicing Install of component WebSockets succeeded!
+[05/13/2020 22:54:20] Success!
+[05/13/2020 22:54:20] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:20] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:20] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /firewall W3SVC
+[05/13/2020 22:54:20] Install firewall rules of component W3SVC succeeded!
+[05/13/2020 22:54:20] Success!
+[05/13/2020 22:54:20] [ End of IIS 10.0 Component Based Setup ]
+[05/13/2020 22:54:20] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/13/2020 22:54:20] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /firewall AdminService
+[05/13/2020 22:54:20] Install firewall rules of component AdminService succeeded!
+[05/13/2020 22:54:20] Success!
+[05/13/2020 22:54:20] [ End of IIS 10.0 Component Based Setup ]
+[05/15/2020 09:19:49] [ ***** IIS 10.0 Component Based Setup ***** ]
+[05/15/2020 09:19:49] .\inetsrv\iissetup.exe  /keygen 
+[05/15/2020 09:19:49] NetFrameworkConfigurationKey key container already exists
+[05/15/2020 09:19:49] Set ACLs on NetFrameworkConfigurationKey
+[05/15/2020 09:19:50] Failed to create iisCngConfigurationKey key container (result=0x8009000f)
+[05/15/2020 09:19:50] Opened existing iisCngConfigurationKey key container
+[05/15/2020 09:19:50] iisCngConfigurationKey key container already exists
+[05/15/2020 09:19:50] Generated (or already exists) IIS CNG Configuration Key Container
+[05/15/2020 09:19:50] Failed to create iisCngWasKey key container (result=0x8009000f)
+[05/15/2020 09:19:50] Opened existing iisCngWasKey key container
+[05/15/2020 09:19:50] iisCngWasKey key container already exists
+[05/15/2020 09:19:50] Generated (or already exists) IIS CNG WAS only Key Container
+[05/15/2020 09:19:50] Key Generation Succeeded
+[05/15/2020 09:19:50] Success!
+[05/15/2020 09:19:50] [ End of IIS 10.0 Component Based Setup ]
+[08/03/2020 00:13:54] [ ***** IIS 10.0 Component Based Setup ***** ]
+[08/03/2020 00:13:54] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-iis-sharedlibraries_31bf3856ad364e35_10.0.19041.1_none_c6da8048542fddc7\aspnetca.exe" /uninstall_common "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb"
+[08/03/2020 00:13:54] Uninstallation success
+[08/03/2020 00:13:54] [ End of IIS 10.0 Component Based Setup ]
+[08/03/2020 00:13:54] [ ***** IIS 10.0 Component Based Setup ***** ]
+[08/03/2020 00:13:54] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe lock config -section:system.webServer/modules
+[08/03/2020 00:13:54] Launching command C:\WINDOWS\System32\inetsrv\appcmd.exe, with params C:\WINDOWS\System32\inetsrv\appcmd.exe lock config -section:system.webServer/modules
+[08/03/2020 00:13:55] LaunchCommand Succeeded
+[08/03/2020 00:13:55] Success!
+[08/03/2020 00:13:55] [ End of IIS 10.0 Component Based Setup ]
+[08/03/2020 00:13:55] [ ***** IIS 10.0 Component Based Setup ***** ]
+[08/03/2020 00:13:55] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /launch_uninstall C:\WINDOWS\System32\inetsrv\appcmd.exe lock config -section:system.webServer/handlers
+[08/03/2020 00:13:55] Launching command C:\WINDOWS\System32\inetsrv\appcmd.exe, with params C:\WINDOWS\System32\inetsrv\appcmd.exe lock config -section:system.webServer/handlers
+[08/03/2020 00:13:55] LaunchCommand Succeeded
+[08/03/2020 00:13:55] Success!
+[08/03/2020 00:13:55] [ End of IIS 10.0 Component Based Setup ]
+[08/03/2020 00:13:55] [ ***** IIS 10.0 Component Based Setup ***** ]
+[08/03/2020 00:13:55] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb\iissetup.exe" /uninstall ASPNET45
+[08/03/2020 00:13:55] Uninstall of component ASPNET45 succeeded!
+[08/03/2020 00:13:55] Success!
+[08/03/2020 00:13:55] [ End of IIS 10.0 Component Based Setup ]
+[08/03/2020 00:13:55] [ ***** IIS 10.0 Component Based Setup ***** ]
+[08/03/2020 00:13:55] "C:\WINDOWS\WinSxS\amd64_microsoft-windows-iis-sharedlibraries_31bf3856ad364e35_10.0.19041.1_none_c6da8048542fddc7\aspnetca.exe" /uninstall /fullaspnet 4.0.30319.0 "C:\WINDOWS\WinSxS\amd64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_876d2c71ceefefbb"
+[08/03/2020 00:13:55] < WARNING! > FindFirstFile result=0x80070003
+[08/03/2020 00:13:55] < WARNING! > RemoveDirectory result=0x80070003
+[08/03/2020 00:13:55] < WARNING! > WriteSiteClientScriptDir result=0x80070003
+[08/03/2020 00:13:55] < WARNING! > WriteASPNETClientFolders() result=0x80070003
+[08/03/2020 00:13:55] Uninstallation success
+[08/03/2020 00:13:55] [ End of IIS 10.0 Component Based Setup ]
+[08/03/2020 00:13:57] [ ***** IIS 10.0 Component Based Setup ***** ]
+[08/03/2020 00:13:57] "C:\WINDOWS\WinSxS\wow64_microsoft-windows-iis-sharedlibraries_31bf3856ad364e35_10.0.19041.1_none_d12f2a9a88909fc2\aspnetca.exe" /uninstall /fullaspnet 4.0.30319.0 "C:\WINDOWS\WinSxS\wow64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_91c1d6c40350b1b6"
+[08/03/2020 00:13:57] < WARNING! > FindFirstFile result=0x80070003
+[08/03/2020 00:13:57] < WARNING! > RemoveDirectory result=0x80070003
+[08/03/2020 00:13:57] < WARNING! > WriteSiteClientScriptDir result=0x80070003
+[08/03/2020 00:13:57] < WARNING! > WriteASPNETClientFolders() result=0x80070003
+[08/03/2020 00:13:57] Uninstallation success
+[08/03/2020 00:13:57] [ End of IIS 10.0 Component Based Setup ]
+[08/03/2020 00:13:57] [ ***** IIS 10.0 Component Based Setup ***** ]
+[08/03/2020 00:13:57] "C:\WINDOWS\WinSxS\wow64_microsoft-windows-iis-sharedlibraries_31bf3856ad364e35_10.0.19041.1_none_d12f2a9a88909fc2\aspnetca.exe" /uninstall /fullaspnet 4.0.30319.0 "C:\WINDOWS\WinSxS\wow64_microsoft-windows-i..raries-servercommon_31bf3856ad364e35_10.0.19041.264_none_91c1d6c40350b1b6"
+[08/03/2020 00:13:57] < WARNING! > FindFirstFile result=0x80070003
+[08/03/2020 00:13:57] < WARNING! > RemoveDirectory result=0x80070003
+[08/03/2020 00:13:57] < WARNING! > WriteSiteClientScriptDir result=0x80070003
+[08/03/2020 00:13:57] < WARNING! > WriteASPNETClientFolders() result=0x80070003
+[08/03/2020 00:13:57] Uninstallation success
+[08/03/2020 00:13:57] [ End of IIS 10.0 Component Based Setup ]
+[09/03/2020 19:25:48] [ ***** IIS 10.0 Component Based Setup ***** ]
+[09/03/2020 19:25:48] "C:\WINDOWS\SysWOW64\inetsrv\aspnetca.exe" /install /fullaspnet 4.0.30319.0
+[09/03/2020 19:25:49] .NET v4.5 Classic App Pool already exists
+[09/03/2020 19:25:49] Installation success
+[09/03/2020 19:25:49] [ End of IIS 10.0 Component Based Setup ]
+[09/03/2020 19:25:49] [ ***** IIS 10.0 Component Based Setup ***** ]
+[09/03/2020 19:25:49] "C:\WINDOWS\System32\inetsrv\aspnetca.exe" /install /fullaspnet 4.0.30319.0
+[09/03/2020 19:25:49] .NET v4.5 Classic App Pool already exists
+[09/03/2020 19:25:49] Installation success
+[09/03/2020 19:25:49] [ End of IIS 10.0 Component Based Setup ]
+[09/03/2020 19:25:49] [ ***** IIS 10.0 Component Based Setup ***** ]
+[09/03/2020 19:25:49] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /install ASPNET45
+[09/03/2020 19:25:49] Install of component ASPNET45 succeeded!
+[09/03/2020 19:25:49] Success!
+[09/03/2020 19:25:49] [ End of IIS 10.0 Component Based Setup ]
+[09/03/2020 19:25:49] [ ***** IIS 10.0 Component Based Setup ***** ]
+[09/03/2020 19:25:49] "C:\WINDOWS\System32\inetsrv\aspnetca.exe" /install_common
+[09/03/2020 19:25:50] Installation success
+[09/03/2020 19:25:50] [ End of IIS 10.0 Component Based Setup ]
+[09/03/2020 19:25:50] [ ***** IIS 10.0 Component Based Setup ***** ]
+[09/03/2020 19:25:50] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe unlock config -section:system.webServer/handlers
+[09/03/2020 19:25:50] Launching command C:\WINDOWS\System32\inetsrv\appcmd.exe, with params C:\WINDOWS\System32\inetsrv\appcmd.exe unlock config -section:system.webServer/handlers
+[09/03/2020 19:25:50] LaunchCommand Succeeded
+[09/03/2020 19:25:50] Success!
+[09/03/2020 19:25:50] [ End of IIS 10.0 Component Based Setup ]
+[09/03/2020 19:25:51] [ ***** IIS 10.0 Component Based Setup ***** ]
+[09/03/2020 19:25:51] "C:\WINDOWS\System32\inetsrv\iissetup.exe" /launch C:\WINDOWS\System32\inetsrv\appcmd.exe unlock config -section:system.webServer/modules
+[09/03/2020 19:25:51] Launching command C:\WINDOWS\System32\inetsrv\appcmd.exe, with params C:\WINDOWS\System32\inetsrv\appcmd.exe unlock config -section:system.webServer/modules
+[09/03/2020 19:25:51] LaunchCommand Succeeded
+[09/03/2020 19:25:51] Success!
+[09/03/2020 19:25:51] [ End of IIS 10.0 Component Based Setup ]

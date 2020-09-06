@@ -1,0 +1,3 @@
+﻿C:\Users\pemoadmin\.dotnet,0.5
+C:\Users\pemoadmin\documents,0.8
+C:\Users\pemoadmin\Downloads,1.5
