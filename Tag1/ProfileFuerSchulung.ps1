@@ -1,6 +1,6 @@
-﻿<#
+<#
  .Synopsis
- Ein Profilskript für die Schulung
+ Ein Profilskript f�r die Schulung
  #>
  
 $Wochentag = Get-Date -Format dddd
