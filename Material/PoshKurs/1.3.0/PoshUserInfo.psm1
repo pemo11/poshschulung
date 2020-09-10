@@ -14,7 +14,7 @@ class UserInfo
     UserInfo([String]$Name)
     {
         $this.Username = $Name
-        $this.Mail = $Name + "poshkurs.local"
+        $this.Mail = $Name + "@poshkurs.local"
         $this.CreateDate = Get-Date
     }
 }

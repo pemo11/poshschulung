@@ -2,7 +2,7 @@
 
 $Cred = [PSCredential]::New("ftp12146773-pskurs", ("posh2020" | ConvertTo-SecureString -AsPlainText -Force))
 
-# Schritt 2: Download der Zip-Datei über wget
+# Schritt 2: Download der Zip-Datei ueber wget
 
 wget -uri ftp://wp12146773.server-he.de/posh/PoshFolien.zip -Credential $Cred -OutFile Folien.zip
 
