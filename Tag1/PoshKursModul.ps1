@@ -2,11 +2,12 @@
 
 try
 {
-    Register-PSRepository -Name PoshRepo -SourceLocation https://www.myget.org/F/poshrepo/api/v2 -ErrorAction Stop
+    Register-PSRepository -Name PoshRepo -SourceLocation https://www.myget.org/F/poshrepo/api/v2 -ErrorAction Stop 
 }
 catch
 {
     Write-Warning "PoshRepo kann nicht registriert werden ($_)"
+    exit
 }
 
 # Schritt 2
