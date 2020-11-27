@@ -3,7 +3,7 @@
  Verschiedene Varianten für das Einlesen einer großen Datei
 #>
 
-$LogPfad = "C:\Windows\Logs\CBS\CbsPersist_20190114133030.log"
+$LogPfad = "C:\Windows\Logs\CBS\Cbs.log"
 
 $Zeilen = Get-Content -Path $LogPfad
 Clear-Variable Zeilen
@@ -21,4 +21,4 @@ Clear-Variable Zeilen
 
 (Measure-Command {[System.IO.File]::ReadLines($LogPfad)}).TotalSeconds
 
-Get-Content -Path $LogPfad | Out-Host -Paging
+# Get-Content -Path $LogPfad | Out-Host -Paging

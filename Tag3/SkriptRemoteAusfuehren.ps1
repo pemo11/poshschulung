@@ -9,7 +9,8 @@
 #>
 
 # Die Zugangsdaten stammen aus einer Datendatei, die im aktuellen Verzeichnis vorliegt
-$VMData = Import-PowerShellDataFile -Path .\AzureVMCred.psd1
+$Psd1Pfad = Join-Path -Path $PSScriptRoot -ChildPath "AzureVMCred.psd1"
+$VMData = Import-PowerShellDataFile -Path  $Psd1Pfad
 $Pw = $VMData.Password | ConvertTo-SecureString
 $Cred = [PSCredential]::new($VMData.Username, $Pw)
 $Hostname = $VMData.Hostname
@@ -23,19 +24,19 @@ $S3 = New-PSSession -Computername $Hostname -Credential $Cred
 
 # currentdocs steht für das Documents-Verzeichnis des aktuellen Users
 
+$Ps1Pfad = Join-Path -Path $PSScriptRoot -ChildPath "SpeicherkostenBerechnenV1.ps1"
 # Reguläre Ausführung
-Invoke-Command -FilePath .\SpeicherkostenBerechnenV1.ps1 `
- -ArgumentList "currentdocs",1.5 -Session $S1
+Invoke-Command -FilePath $Ps1Pfad -ArgumentList "currentdocs",1.5 -Session $S1
 
 # Ausführen auf mehreren Remote-Computern
-Invoke-Command -FilePath .\SpeicherkostenBerechnenV1.ps1 `
- -ArgumentList "currentdocs",1.5 -Session $S2,$S3
+# Invoke-Command -FilePath .\SpeicherkostenBerechnenV1.ps1 -ArgumentList "currentdocs",1.5 -Session $S2,$S3
 
 # Ausführen als Job
-$S4 = New-PSSession -Computername $Hostname -Credential $Cred
+# $S4 = New-PSSession -Computername $Hostname -Credential $Cred
 
-Invoke-Command -FilePath .\SpeicherkostenBerechnenV1.ps1 `
- -ArgumentList "currentdocs",1.5 -Session $S4,$S1,$S2,$S3 -AsJob
+# Invoke-Command -FilePath .\SpeicherkostenBerechnenV1.ps1 `
+
+# -ArgumentList "currentdocs",1.5 -Session $S4,$S1,$S2,$S3 -AsJob
 
 # Abholen der Daten über Receive-Job mit der Id des Remote-Jobs
 # Receive-Job -Id 18
